@@ -635,6 +635,19 @@ pre code {
     }
 }
 
+.py{
+    padding-bottom: 4.5rem !important;
+}
+
+.py{
+    padding-top: 9.5rem !important;
+}
+
+.img-member{
+    height: 400px;
+    width: 360px;
+    border-radius: 5px;
+}
 .container-fluid {
     width: 100%;
     padding-right: 15px;
