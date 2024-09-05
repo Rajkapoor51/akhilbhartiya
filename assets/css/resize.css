@@ -1,0 +1,111 @@
+@media only screen and (max-width: 991px) {
+    .navbar {
+        /*height: 100px;*/
+    }
+    .navbar-brand {
+        /*top: -25px;*/
+    }
+    #mainNav {
+        background-color: #fff !important;
+        padding: 4rem 1rem 1rem;
+    }
+    .nav-item {
+        padding-left: 1rem;
+        border-bottom: 1px solid #ccc;
+    }
+    .nav-item:nth-last-child(1) {
+        border-bottom: none;
+    }
+    .nav-item:hover {
+        background-color: #d81418;
+    }
+    .nav-item:hover .nav-link {
+        color: #fff !important;
+    }
+    .navbar-light .navbar-brand {
+        padding-top: 0;
+    }
+    .logo-img {
+        width: 94px;
+        border: none;
+    }
+    .customNav .logo-img {
+        transform: scale(1);
+    }
+    .main-wrapper {
+        padding-top: 56px;
+    }
+    .welcome-text-wrap h2 {
+        font-size: 1.8rem;
+    }
+    .about-wrapper {
+        padding: 4rem 0;
+    }
+    .v-wrap h2 {
+        font-size: 1.6rem;
+    }
+    .team-details-wrap p {
+        overflow: hidden;
+        overflow-wrap: break-word;
+    }
+    .news-wrapper-inner {
+        padding: 4rem 0;
+    }
+    .ct-form {
+        margin-bottom: 3rem;
+    }
+    .ct-row {
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .welcome-img-wrap {
+        margin-bottom: 2rem;
+    }
+    .welcome-wrapper {
+        padding-bottom: 3rem;
+    }
+    .news-wrap {
+        margin-bottom: 2rem;
+    }
+    .news-wrapper {
+        padding-bottom: 2rem;
+    }
+    .news-img-wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+    .coming-events-wrap {
+        margin-bottom: 2rem;
+    }
+    .about-row {
+        margin-top: 2rem;
+    }
+    .about-row1,
+    .about-row2 {
+        margin-top: 4rem;
+    }
+    .team-box {
+        margin-bottom: 2rem;
+    }
+    .member-box {
+        margin-bottom: 2rem;
+    }
+    .offline-cover h1 {
+        line-height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .team-img-wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+    .news-wrap {
+        margin-bottom: 0;
+    }
+    .welcome-wrapper {
+        padding-top: 4rem;
+    }
+}
